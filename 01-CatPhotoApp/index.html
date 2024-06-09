@@ -35,8 +35,10 @@
             <h2>Cat Form</h2>
             <!-- action attribute indicates where to send data -->
             <form action="https://freecatphotoapp.com/submit-cat-photo">
-                <label><input value="indoor" name="indoor-outdoor" id="indoor" type="radio"> Indoor</label>
-                <label><input value="outdoor" name="indoor-outdoor" id="outdoor" type="radio"> Outdoor</label>
+                <fieldset>
+                  <label><input value="indoor" name="indoor-outdoor" id="indoor" type="radio"> Indoor</label>
+                  <label><input value="outdoor" name="indoor-outdoor" id="outdoor" type="radio"> Outdoor</label>
+                </fieldset>
                 <input required type="text" name="catphotourl" placeholder="cat photo URL">  
                 <!-- Step 37 will pass without closing shevron -->
                 <button type="submit">Submit</button>
