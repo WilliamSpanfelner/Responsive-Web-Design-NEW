@@ -54,4 +54,5 @@ hr {
     display: inline-block; /* inline-block elements take up only as much space as their content */
     margin-top: 5px;
     margin-bottom: 5px;
+    font-size: 18px;
 }
