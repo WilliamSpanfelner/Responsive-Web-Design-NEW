@@ -29,6 +29,7 @@ hr {
 }
 
 img {
+    margin-top: -25px; /* A negative top-margin effectively pulls an item upwards*/
     display: block;
     margin-left: auto;
     margin-right: auto;
