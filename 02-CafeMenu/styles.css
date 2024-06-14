@@ -73,3 +73,5 @@ a:visited {color: black;}
 /* visited and hover are pseudo-selectors */
 a:hover {color: brown;}
 a:active { color: brown; }
+
+.address {margin-bottom: 5px;}
