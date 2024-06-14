@@ -67,7 +67,7 @@ footer {
 
 a {color: black;}
 
-a:visited {color: grey;}
+a:visited {color: black;}
 /* visited and hover are pseudo-selectors */
 a:hover {color: brown;}
-a:active { color: white; }
+a:active { color: brown; }
