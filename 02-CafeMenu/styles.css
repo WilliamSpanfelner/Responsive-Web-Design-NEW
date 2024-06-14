@@ -28,6 +28,12 @@ hr {
     border-color: brown;
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .bottom-line {
     margin-top: 25px;
 }
