@@ -2,4 +2,6 @@ body {
     width: 100%;
     height: 100vh; /* vh = veiwport height */
     margin: 0;  /* removes the horizontal scroll bar by removing default margin set by browsers*/
+    background-color: #1b1b32;
+    color: #f5f6f7;
 }
