@@ -18,6 +18,12 @@ h1, p {
     text-align: center;
 }
 
+/* Attribute selectors target an element by a value assigned to an attribute */
+input[type="submit"] {  
+    display: block;
+    width: 60%;
+}
+
 input, textarea, select {
     width: 100%;
     margin: 10px 0 0 0;
