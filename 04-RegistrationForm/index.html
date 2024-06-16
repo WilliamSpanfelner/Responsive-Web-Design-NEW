@@ -12,10 +12,10 @@
          method attribute specifies how to send form data -->
         <form action="https://register-demo.freecodecamp.org" method="post">
             <fieldset>
-                <label for="first-name">Enter Your First Name: <input required id="first-name" type="text"></label> <!-- Space between innerText and input is important -->
-                <label for="last-name">Enter Your Last Name: <input required id="last-name" type="text"></label> <!-- Link label & input with for & id attributes -->
-                <label for="email">Enter Your Email: <input required id="email" type="email"></label>  <!-- Type attributes allow browser to expect certain characteristics. Password obscures entry field while email allows entries with @ and . in the domain-->
-                <label for="new-password">Create a New Password: <input required id="new-password" type="password" minlength="8" pattern="[a-z0-5]{8,1}"></label>
+                <label for="first-name">Enter Your First Name: <input name="first-name" required id="first-name" type="text"></label> <!-- Space between innerText and input is important -->
+                <label for="last-name">Enter Your Last Name: <input name="last-name" required id="last-name" type="text"></label> <!-- Link label & input with for & id attributes -->
+                <label for="email">Enter Your Email: <input required name="email" id="email" type="email"></label>  <!-- Type attributes allow browser to expect certain characteristics. Password obscures entry field while email allows entries with @ and . in the domain-->
+                <label for="new-password">Create a New Password: <input name="password" required id="new-password" type="password" minlength="8" pattern="[a-z0-5]{8,1}"></label>
                 <!-- The input element pattern attribute allows a regex expression for password validation -->
             </fieldset>
             <fieldset>
@@ -25,10 +25,10 @@
                 <label for="business-account"><input type="radio" name="account-type" id="business-account"> Business</label>
             </fieldset>
             <fieldset>
-                <label for="profile-picture">Upload a profile picture: <input type="file" name="" id="profile-picture"></label>
-                <label for="age">Input your age (years): <input type="number" min="13" max="120" name="" id="age"></label>
+                <label for="profile-picture">Upload a profile picture: <input type="file" name="avatar" id="profile-picture"></label>
+                <label for="age">Input your age (years): <input type="number" min="13" max="120" name="age" id="age"></label>
                 <label for="referrer">How did you hear about us? 
-                    <select name="" id="referrer">
+                    <select name="referrer" id="referrer">
                         <option value="">(select one)</option>
                         <option value="1">freeCodeCamp News</option>
                         <option value="2">freeCodeCamp YouTube Channel</option>
@@ -36,9 +36,9 @@
                         <option value="4">Other</option>
                     </select>
                 </label>
-                <label for="bio">Provide a bio: <textarea rows="3" cols="30" name="" id="bio" placeholder="I like coding on the beach..." ></textarea></label>
+                <label for="bio">Provide a bio: <textarea rows="3" cols="30" name="bio" id="bio" placeholder="I like coding on the beach..." ></textarea></label>
             </fieldset>
-            <label for="terms-and-conditions"><input required type="checkbox" name="" id="terms-and-conditions"> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a></label>
+            <label for="terms-and-conditions"><input required type="checkbox" name="t&cs" id="terms-and-conditions"> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a></label>
             <input type="submit" value="Submit"> 
             <!-- The first input element with a type of submit is automatically set to submit its nearest parent form element -->
         </form>
