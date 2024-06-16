@@ -18,6 +18,11 @@ h1, p {
     text-align: center;
 }
 
+fieldset {
+    border: none;
+    padding: 2rem 0;
+}
+
 form {
     margin: 0 auto;
     max-width: 500px;
