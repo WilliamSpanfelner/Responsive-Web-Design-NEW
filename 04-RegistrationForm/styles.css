@@ -40,3 +40,7 @@ form {
     min-width: 300px;
     width: 60vw;
 }
+
+.inline {
+    width: unset;
+}
