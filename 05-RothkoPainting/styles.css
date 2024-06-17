@@ -2,7 +2,8 @@
     width: 500px;
     height: 600px;
     background-color: #4d0f00;
-    padding: 1px;  /* This padding stops the one element from pushing past the canvas & onto the frame's border*/
+    /* padding: 1px;  This padding stops the one element from pushing past the canvas & onto the frame's border but changes canvas dimensions */
+    overflow: hidden; /* Overflow property restores canvas original dimensions that changed with the addition of padding */
 }
 
 .frame {
