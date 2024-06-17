@@ -64,6 +64,10 @@ form {
     padding-bottom: 2em;
 }
 
+a {
+    color: #dfdfe2;
+}
+
 .inline {
     width: unset;
     margin: 0;
