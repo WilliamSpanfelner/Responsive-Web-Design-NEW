@@ -18,6 +18,10 @@ h1, p {
     text-align: center;
 }
 
+input[type="file"] {
+    padding: 1px 2px;
+}
+
 /* Attribute selectors target an element by a value assigned to an attribute */
 input[type="submit"] {  
     display: block;
