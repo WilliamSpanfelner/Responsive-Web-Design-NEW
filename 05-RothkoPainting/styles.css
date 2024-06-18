@@ -28,6 +28,10 @@
     margin: 0 auto 20px; /* This margin pushes .three down */
 }
 
+.one, .two {
+    filter: blur(1px);
+}
+
 .three {
     width: 91%;
     height: 28%;
