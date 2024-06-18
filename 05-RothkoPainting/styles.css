@@ -17,14 +17,14 @@
     width: 425px;
     height: 150px;
     background-color: #efb762;
-    margin: 20px auto;
+    margin: 20px auto; /* This margin pushes .two down */
 }
 
 .two {
     width: 475px;
     height: 200px;
     background-color: #8f0401;
-    margin: auto;
+    margin: 0 auto 20px; /* This margin pushes .three down */
 }
 
 .three {
