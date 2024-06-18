@@ -2,14 +2,3 @@
     box-sizing: border-box; /* Border-box includes margins and padding in the total width of an element.    
     The default is content-box - it calculates specified dimensions based on the element's content */
 }
-
-.gallery {
-    width: 50%;
-    border: 5px solid red;
-}
-
-img {
-    width: 100%;
-    padding: 5px;
-    border: 5px solid blue;
-}
