@@ -1,3 +1,7 @@
+* {
+    box-sizing: content-box; /* This is the default - it calculates specified dimensions based on the element's content */
+}
+
 .gallery {
     width: 50%;
     border: 5px solid red;
