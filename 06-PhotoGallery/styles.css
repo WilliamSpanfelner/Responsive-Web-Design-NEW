@@ -11,7 +11,7 @@ body {
 
 .gallery {
     display: flex;  /* Creates a flex box & all direct children flex-items */
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 
 .gallery img {
