@@ -21,6 +21,11 @@ body {
     margin: 0 auto;
 }
 
+.gallery::after {  /* The ::after pseudo-element creates an element that is the last child of the selected element */
+    content: "";   /* If the width is set the same as the other images, it will prevent the last real image (when there */
+    width: 350px;  /*  is an odd number of images) being centered and apparently isolated from the others. */
+}
+
 .gallery img {
     width: 100%;
     max-width: 350px;
