@@ -14,6 +14,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap; /* Wrap content to the next line if not enough space - default setting will shrink items*/
     justify-content: center; /* Position items along main axis */
+    align-items: center; /* Position items along cross axis */
 }
 
 .gallery img {
