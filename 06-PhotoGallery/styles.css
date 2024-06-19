@@ -15,6 +15,7 @@ body {
     flex-wrap: wrap; /* Wrap content to the next line if not enough space - default setting will shrink items*/
     justify-content: center; /* Position items along main axis */
     align-items: center; /* Position items along cross axis */
+    gap: 16px;
     padding: 20px 10px;
     max-width: 1400px;
     margin: 0 auto;
