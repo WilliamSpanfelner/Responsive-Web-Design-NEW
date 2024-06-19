@@ -26,6 +26,7 @@ body {
     max-width: 350px;
     height: 300px;
     object-fit: cover;  /* Maintains aspect ratio of images */
+    border-radius: 10px;
 }
 
 .header {
