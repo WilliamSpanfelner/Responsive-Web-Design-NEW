@@ -12,6 +12,7 @@ body {
 .gallery {
     display: flex;  /* Creates a flex box & all direct children flex-items */
     flex-direction: row;
+    flex-wrap: wrap; /* Wrap content to the next line if not enough space - default setting will shrink items*/
 }
 
 .gallery img {
