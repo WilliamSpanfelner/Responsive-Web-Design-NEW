@@ -9,6 +9,10 @@ body {
     background-color: #f5f6f7;
 }
 
+.gallery {
+    display: flex;  /* Creates a flex box & all direct children flex-items */
+}
+
 .gallery img {
     width: 100%;
     max-width: 350px;
