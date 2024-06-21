@@ -95,3 +95,8 @@ In this case, all .daily-value p elements without a no-divider class
 .double-indent {
     margin-left: 2em;
 }
+
+.note {
+    font-size: 0.6rem;
+    margin: 5px 0;
+}
