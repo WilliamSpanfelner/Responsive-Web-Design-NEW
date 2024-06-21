@@ -92,3 +92,6 @@ In this case, all .daily-value p elements without a no-divider class
     border-bottom: 1px solid #888989;
 }
 
+.double-indent {
+    margin-left: 2em;
+}
