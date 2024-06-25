@@ -44,8 +44,9 @@
                     <fieldset name="q1" class="question">
                         <legend>An input element is self-closing. </legend>
                         <ul class="answers-list">
-                            <li><label for="q1-a1"><input id="q1-a1" type="radio" value="True">True</label></li>
-                            <li><label for="q1-a2"><input id="q1-a2" type="radio" value="False">False</label></li>
+                            <!-- Grouping input elements with the same name/value attribute permits the selection of one choice only. -->
+                            <li><label for="q1-a1"><input name="q1" id="q1-a1" type="radio" value="True">True</label></li>
+                            <li><label for="q1-a2"><input name="q1" id="q1-a2" type="radio" value="False">False</label></li>
                         </ul>
                     </fieldset>
                 </div>
@@ -54,8 +55,8 @@
                     <fieldset name="q2" class="question">
                         <legend>UTF-9 is standard encoding for HTML documents. </legend>
                         <ul class="answers-list">
-                            <li><label for="q2-a1"><input id="q2-a1" type="radio" value="True">True</label></li>
-                            <li><label for="q2-a2"><input id="q2-a2" type="radio" value="False">False</label></li>
+                            <li><label for="q2-a1"><input name="q2" id="q2-a1" type="radio" value="True">True</label></li>
+                            <li><label for="q2-a2"><input name="q2" id="q2-a2" type="radio" value="False">False</label></li>
                         </ul>
                     </fieldset>
                 </div>
