@@ -10,6 +10,11 @@ header {
     height: 50px;
     background-color: #1b1b32;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    /* overflow: hidden; */
+    top: 0;
 }
 
 #logo {
