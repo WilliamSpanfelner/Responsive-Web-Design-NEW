@@ -38,6 +38,11 @@ main {
 nav > ul { 
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0; /* https://developer.mozilla.org/en-US/docs/Web/CSS/padding-inline-start#examples */
+    margin-block: 0; /* https://developer.mozilla.org/en-US/docs/Web/CSS/margin-block */
+    height: 100%;
 }
 
 nav > ul > li {
