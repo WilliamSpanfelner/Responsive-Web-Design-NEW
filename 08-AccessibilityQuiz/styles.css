@@ -37,6 +37,10 @@ nav > ul > li {
     display: block;
 }
 
+nav > ul > li > a {
+    color: #f1be32;
+}
+
 h1, h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
