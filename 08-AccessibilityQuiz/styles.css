@@ -89,7 +89,12 @@ h2 {
 }
 
 input {
-    font-size: 2rem;
+    font-size: 1rem;
+}
+
+.info > input {
+    width: 50%;
+    text-align: left;
 }
 
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/::before */
