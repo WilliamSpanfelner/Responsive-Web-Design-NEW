@@ -63,6 +63,12 @@ nav li:hover {
     cursor: pointer;
 }
 
+section {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto 10px auto;
+}
+
 h1, h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
