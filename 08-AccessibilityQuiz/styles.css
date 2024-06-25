@@ -127,6 +127,11 @@ p::before {
     content: "Question #";
 }
 
+.question {
+    border: 0;
+    padding-bottom: 0;
+}
+
 .sr-only {
     position: absolute;
     width: 1px;
