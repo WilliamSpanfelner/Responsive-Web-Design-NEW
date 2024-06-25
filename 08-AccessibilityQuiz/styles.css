@@ -79,6 +79,10 @@ h2 {
     padding-top: 60px;
 }
 
+.info {
+    padding: 1rem 0 0 1rem;
+}
+
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/::before */
 p::before {
     content: "Question #";
