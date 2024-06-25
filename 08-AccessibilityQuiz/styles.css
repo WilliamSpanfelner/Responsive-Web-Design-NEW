@@ -132,6 +132,10 @@ p::before {
     padding-bottom: 0;
 }
 
+.answers-list {
+    list-style: none;
+}
+
 .sr-only {
     position: absolute;
     width: 1px;
