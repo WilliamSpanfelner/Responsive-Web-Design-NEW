@@ -157,6 +157,11 @@ footer, footer a {
     color: #f1be32;
 }
 
+address {
+    text-align: center;
+    padding: 1rem;
+}
+
 .sr-only {
     position: absolute;
     width: 1px;
