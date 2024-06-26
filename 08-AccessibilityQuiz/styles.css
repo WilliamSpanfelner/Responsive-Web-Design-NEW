@@ -137,7 +137,6 @@ p::before {
     padding: 0;
 }
 
-/*Step 62 - input element was in place of button???*/
 button {
     display: block;
     margin: 40px auto;
@@ -152,6 +151,10 @@ footer {
     background-color: #2a2a40;
     display: flex;
     justify-content: center;
+}
+
+footer, footer a {
+    color: #f1be32;
 }
 
 .sr-only {
