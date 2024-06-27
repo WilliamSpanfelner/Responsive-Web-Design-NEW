@@ -75,3 +75,7 @@ section {
 .table-wrap {
     padding: 0 0.75rem 1.5rem 0.75rem;
 }
+/* Target span elements without the sr-only class */
+span:not(.sr-only) {
+    font-weight: normal;
+}
