@@ -1,16 +1,17 @@
+/* !important keyword ensures properties are always applied regardless of order or specificity https://developer.mozilla.org/en-US/docs/Web/CSS/important */
 span[class~="sr-only"] {
-    border: 0;
-    /* [Step 31 - clip property is deprecated ](https://developer.mozilla.org/en-US/docs/Web/CSS/clip#browser_compatibility) */
+     border: 0 !important;
+    /* [Step 31 & 47 - clip property is deprecated ](https://developer.mozilla.org/en-US/docs/Web/CSS/clip#browser_compatibility) */
     /* clip: rect(1px, 1px, 1px, 1px); */
     /* Desired effect is acheived with the following propery setting - but tests still require both? */
-    clip-path: inset(50%); 
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    white-space: nowrap;
-    position: absolute;
-    padding: 0;
-    margin: -1px;
+    clip-path: inset(50%) !important; 
+    width: 1px !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    position: absolute !important;
+    padding: 0 !important;
+    margin: -1px !important;
 }
 
 html {
