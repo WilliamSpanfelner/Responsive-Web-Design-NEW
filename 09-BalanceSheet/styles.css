@@ -64,3 +64,10 @@ section {
     /* Sticky positioning are moved into their own stack.  z-index can prevent other elements from obscuring this stack. */
     z-index: 999;
 }
+
+/* Target #years child span elements with a class attribute */
+#years span[class] {
+    font-weight: bold;
+    width: 4.5rem;
+    text-align: right;
+}
