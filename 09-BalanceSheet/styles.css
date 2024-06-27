@@ -1,5 +1,9 @@
 span[class~="sr-only"] {
     border: 0;
+    /* [Step 31 - clip property is deprecated ](https://developer.mozilla.org/en-US/docs/Web/CSS/clip#browser_compatibility) */
+    /* clip: rect(1px, 1px, 1px, 1px); */
+    /* Desired effect is acheived with the following propery setting - but tests still require both? */
+    clip-path: inset(50%); 
 }
 
 html {
