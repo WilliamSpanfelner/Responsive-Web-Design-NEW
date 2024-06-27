@@ -61,4 +61,6 @@ section {
     margin: 0 -2px;
     /* https://developer.mozilla.org/en-US/docs/Web/CSS/calc */
     padding: 0.5rem calc(1.25rem + 2px) 0.5rem 0;
+    /* Sticky positioning are moved into their own stack.  z-index can prevent other elements from obscuring this stack. */
+    z-index: 999;
 }
