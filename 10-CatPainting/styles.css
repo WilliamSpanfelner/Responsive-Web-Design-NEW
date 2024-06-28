@@ -7,8 +7,12 @@ body {
 }
 
 .cat-head {
-    position: sticky; 
+    position: absolute; 
+    right: 0;
+    left: 0;
     top: 0; 
+    bottom: 0;
+    margin: auto auto;
     /* Step 11 doesn't permit negative values for left property. */
     /* absolute positioning takes elements out of the normal document flow - top, right, bottom & left props determine position */
     width: 205px;
