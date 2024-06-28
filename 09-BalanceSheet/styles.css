@@ -76,10 +76,6 @@ section {
 .table-wrap {
     padding: 0 0.75rem 1.5rem 0.75rem;
 }
-/* Target span elements without the sr-only class */
-span {
-    font-weight: normal;
-}
 
 table {
     border-collapse: collapse;
@@ -152,5 +148,5 @@ tr.data th .description {
     font-style: italic;
     font-weight: normal;
     padding: 1rem 0 0.75rem;
-    /* margin-right: -13.5rem; */
+    margin-right: -13.5rem;
 }
