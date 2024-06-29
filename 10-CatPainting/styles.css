@@ -23,6 +23,9 @@ body {
 }
 
 .cat-left-ear {
+    /* Absolute positioning has the effect of pushing the ends
+    of the rectangle together as it is still contained by the parent element
+    but removed from the document flow */
     position: absolute;
     top: -26px;
     left: -31px;
