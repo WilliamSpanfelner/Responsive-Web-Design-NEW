@@ -79,6 +79,11 @@ body {
 }
 
 .cat-left-eye {
+    position: absolute;
+    /* Change the z-index to see the eye before positioning */
+    /* z-index: 99; */
+    top: 54px;
+    left: 39px;
     width: 30px;
     height: 40px;
     background-color: #000;
