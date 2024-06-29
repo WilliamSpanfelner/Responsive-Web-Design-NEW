@@ -92,6 +92,10 @@ body {
 }
 
 .cat-right-eye {
+    position: absolute;
+    top: 54px;
+    left: 134px;
+    /* z-index: 99; */
     width: 30px;
     height: 40px;
     background-color: #000;
