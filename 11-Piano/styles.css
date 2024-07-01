@@ -30,3 +30,9 @@ html {
     /* https://developer.mozilla.org/en-US/docs/Web/CSS/float */
     float: left;
 }
+
+.key.black--key::after {
+    background-color: #1d1e22;
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/content */
+    content: "";
+}
