@@ -35,6 +35,7 @@ main {
 
 .heading {
     display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create 2 columns of equal width */
     grid-column: 2 / 3; /*Adjust placement - start @ grid line 2 & end @ line 3*/
 }
 
