@@ -36,3 +36,7 @@ main {
 .heading {
     grid-column: 2 / 3; /*Adjust placement - start @ grid line 2 & end @ line 3*/
 }
+
+.text {
+    grid-column: 2 / 3;
+}
