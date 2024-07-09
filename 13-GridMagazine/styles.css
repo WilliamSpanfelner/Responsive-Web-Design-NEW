@@ -146,3 +146,7 @@ hr {
     gap: 2rem; /* Can take 2 values row column - if only 1 value is given it applies to row & column*/
     place-items: center; /* Can take 2 values - 1 for align-items & 1 for justify-items - if only 1 value is provided it is used for both properties*/
 }
+
+.image-1, .image-3 {
+    grid-column: 1 / -1;
+}
