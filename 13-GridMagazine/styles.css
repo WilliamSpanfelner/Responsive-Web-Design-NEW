@@ -143,4 +143,5 @@ hr {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: repeat(3, min-content);
+    gap: 2rem; /* Can take 2 values row column - if only 1 value is given it applies to row & column*/
 }
