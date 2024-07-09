@@ -83,5 +83,6 @@ img {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-auto-flow: column;  /* Algorithm creates new columns for content as needed */
+    grid-auto-columns: 1fr;  /* Ensure consistent width for new columns - auto is default property setting*/ 
     font-size: 3rem;
 }
