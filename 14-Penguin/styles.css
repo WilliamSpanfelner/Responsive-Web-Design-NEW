@@ -6,3 +6,8 @@ body {
     height: 100vh;
     overflow: hidden; /* Removes horizontal & vertical scrollbars */
 }
+
+.ground {
+    width: 100vw;
+    height: 400px;
+}
