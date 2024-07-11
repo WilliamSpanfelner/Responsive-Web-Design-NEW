@@ -44,6 +44,8 @@ body {
     background-color: red;  /* PR Step 12? Plus a new step to remove. */
     margin: 0 auto;
     margin-top: 75px;
+    z-index: 4;
+    position: relative;
 }
 
 .ground {
