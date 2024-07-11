@@ -48,6 +48,10 @@ body {
     position: relative;
 }
 
+.penguin * {  /* Target all descendant elements */
+    position: absolute;
+}
+
 .penguin-head {
     width: 50%;
     height: 45%;
