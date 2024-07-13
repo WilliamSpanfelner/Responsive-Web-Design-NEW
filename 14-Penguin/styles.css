@@ -58,6 +58,10 @@ body {
     position: absolute;
 }
 
+.penguin:active { /*Increase element size by 50% in both directions while element is active*/
+    transform: scale(1.5);
+}
+
 .penguin-head {
     width: 50%;
     height: 45%;
