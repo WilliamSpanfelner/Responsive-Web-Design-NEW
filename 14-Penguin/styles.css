@@ -60,6 +60,7 @@ body {
 
 .penguin:active { /*Increase element size by 50% in both directions while element is active*/
     transform: scale(1.5);
+    cursor: not-allowed;
 }
 
 .penguin-head {
